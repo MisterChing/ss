@@ -1,0 +1,16 @@
+{
+    "server":"8.8.8.8",
+    "server_port":10010,
+    "password":"abcd123",
+    "server_password": [
+        ["8.8.8.8:10010", "abcd123", "aes-256-cfb"]
+    ],
+    "port_password": {
+        "10010": "abcd123",
+        "10086": "abcd123"
+    },
+    "local_port":1080,
+    "local_address":"127.0.0.1",
+    "method": "aes-256-cfb",
+    "timeout":600
+}
